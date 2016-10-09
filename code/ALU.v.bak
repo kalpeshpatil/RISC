@@ -1,0 +1,36 @@
+module ALU (clk, aluA, aluB, opSel, aluOut, zeroFlag,carryFlag);
+ input wire clk;
+ input wire [15:0] aluA;       //1st input of alu
+ input wire [15:0] aluB;		//2nd input	
+ input wire [1:0] opSel;      //add, nand, subtract
+ output reg [15:0] aluOut;    //result
+ output reg zeroFlag;
+ output reg carryFlag;
+ 
+ parameter none = 2'b00;
+ parameter add = 2'b01;
+ parameter compare = 2'b10;
+ parameter nandop = 2'b11;
+ 
+ always @(*)
+ begin
+ case(opSel)
+	add:
+	begin
+	{carryFlag, aluOut} = aluA + aluB;
+	end
+	compare:
+		begin
+			if(aluA==aluB) zeroFlag = 1;
+			else zeroFlag = 0;
+		end
+	nandop:
+	   begin
+			aluOut = ~(aluA & aluB);
+		end
+   none:
+	   begin
+		end
+	endcase
+	end
+endmodule

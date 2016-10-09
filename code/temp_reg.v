@@ -1,0 +1,9 @@
+module temp_reg(temp_ip, temp_op, temp_clk);
+ input wire [15:0] temp_ip;
+ output reg [15:0] temp_op;
+ input wire temp_clk;
+ always@ (posedge temp_clk)
+ begin
+  temp_op = temp_ip;
+ end
+endmodule

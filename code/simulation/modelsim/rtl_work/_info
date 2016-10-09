@@ -1,0 +1,350 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Kalpesh Patil\OneDrive\Acads\Ankit-kalpesh\Project1\simulation\modelsim
+vALU
+I_SPkoFV`nHmMmfRY3aL]G2
+V`:iZc^LLzCN8c==caNQ8c3
+Z1 dC:\Users\Kalpesh Patil\OneDrive\Acads\Ankit-kalpesh\Project1\simulation\modelsim
+w1446574733
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/ALU.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/ALU.v
+L0 1
+Z2 OV;L;10.0c;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1} -O0
+n@a@l@u
+!s100 `GEJMCFA[H>N6do0j2SJ40
+!s85 0
+!s108 1446635798.770000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/ALU.v|
+!s101 -O0
+vcontroller
+I<?YLb20`<j_Zm;TJ?3WN?0
+V?_XTlLkY^g@jn3<>c_?gU0
+R1
+w1446634494
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/controller.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/controller.v
+L0 3
+R2
+r1
+31
+R3
+R4
+!s100 ]Ybknl_6FZm:^fVkfH8f_0
+!s85 0
+!s108 1446635805.127000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/controller.v|
+!s101 -O0
+vcounter_3b
+I1d6;f_h@IYO50[Jf[Om9:2
+V=jOFo?3<8<b4]GZS58STz0
+R1
+w1445693933
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/counter_3b.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/counter_3b.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 :Ao8PV8[Q@V7`ABiocO3B0
+!s85 0
+!s108 1446635800.987000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/counter_3b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/counter_3b.v|
+!s101 -O0
+vinstruction_reg
+I5hB:mgVZE6VN<iSOjgf_>2
+Ve<jAT8hXlo3[AU04:17j?1
+R1
+w1445593054
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/instruction_reg.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/instruction_reg.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 MO_9;RQB5T;cP2S3[L8kl0
+!s85 0
+!s108 1446635806.174000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/instruction_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/instruction_reg.v|
+!s101 -O0
+vMemory
+IZdVboWcc2=8FL^Y0BNQBh1
+V2[M3TYhPf80mTDnz7E>2B0
+R1
+w1446635109
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/memory.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/memory.v
+L0 1
+R2
+r1
+31
+R3
+n@memory
+R4
+!s100 R51;`HM0cj3L3]9PQPPYL0
+!s85 0
+!s108 1446635798.129000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/memory.v|
+!s101 -O0
+vmux2to1_16b
+Imk>_9EG_ezXLiGibzEDEJ2
+VMI<O`L`46o@m:TAGUlN2H0
+R1
+w1445183201
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux2to1.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux2to1.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 MNk9hgHOICzb58z=5Q2ZN0
+!s85 0
+!s108 1446635799.582000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux2to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux2to1.v|
+!s101 -O0
+vmux4to1_16b
+!s100 C4lGPc]7h5iaZB9DLb<^^0
+ICP9>?X[XfUBeN@6E?^SBO3
+V5o@gXjizgN71>_5KLmbFO1
+R1
+w1445537962
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_16b.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_16b.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1446635807.924000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_16b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_16b.v|
+!s101 -O0
+R3
+R4
+vmux4to1_3b
+I740=?ZkA]gjKWMkKF60fN0
+VS3`21F>28S^lRAm>D6cW=0
+R1
+w1444934356
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_3b.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_3b.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 10z^BSR0S4XSa4c1=1hhC2
+!s85 0
+!s108 1446635800.268000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_3b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_3b.v|
+!s101 -O0
+vmux8to1_16b
+I3i^W>:GT29F3a[0^Scd6m3
+VcVcI5Bzea9>__OZ209FZ22
+R1
+w1445180910
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_16b.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_16b.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 iPI5YEf[3ln3U3PLM0C:f1
+!s85 0
+!s108 1446635802.518000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_16b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_16b.v|
+!s101 -O0
+vmux8to1_3b
+IOQ6lXK3BEl0YTURO`Z>P;0
+VZ[;bNXMBj2CBUC=ZXL4f@2
+R1
+w1445179233
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_3b.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_3b.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 cT@_F9T7j9f21b=W4F;>_3
+!s85 0
+!s108 1446635802.002000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_3b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_3b.v|
+!s101 -O0
+vregister_3b
+IU4n0ZaekOQgLSelMbNGWC0
+VQjZ]3SA;BKa7Od=7LNHC72
+R1
+w1445593748
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/register_3b.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/register_3b.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 ``AV?4VG^kObjil=khl<J3
+!s85 0
+!s108 1446635807.455000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/register_3b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/register_3b.v|
+!s101 -O0
+vRegisterFile
+ImDLk97fRN^L[J?;WaaK3n3
+V@zOmEXo5z;V8:Djicd;QU3
+R1
+w1446540226
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/RegisterFile.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/RegisterFile.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@register@file
+!s100 mAG]02GlIHR`i[V<VV@`40
+!s85 0
+!s108 1446635801.518000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/RegisterFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/RegisterFile.v|
+!s101 -O0
+vse6_16
+ICKELdPVaaNFMkZ4eYBz>F2
+VDALf>9Z?Z1SUi;`UAn8?12
+R1
+w1446543562
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se6_16.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se6_16.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 @7=V:APfXlKQJFMJcffL@3
+!s85 0
+!s108 1446635802.986000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se6_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se6_16.v|
+!s101 -O0
+vse79_16
+IK7UOhEoFz;4>OPBa7O0[M1
+Vm0c]biOX[7Nn`0mf5Pe>[1
+R1
+w1446543560
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se79_16.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se79_16.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 z[[Wl]LEPE=902S;O>7bm2
+!s85 0
+!s108 1446635803.486000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se79_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se79_16.v|
+!s101 -O0
+vse97_16
+IT9AMhz`P6B8c93A;AYiLK0
+V^INNJUZLDLGml]8G?c`600
+R1
+w1445171199
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se97_16.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se97_16.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 ezdOJTA<;fH<ST?K@]82D0
+!s85 0
+!s108 1446635804.018000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se97_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se97_16.v|
+!s101 -O0
+vshifter
+ILOe7F6]=XB6bUAC;2H@KB0
+Vo516h4lK@8Cai@=NN`hjS2
+R1
+w1446537248
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/shifter.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/shifter.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 ch0`z33TeV4AG4P74AeST0
+!s85 0
+!s108 1446635804.611000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/shifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/shifter.v|
+!s101 -O0
+vtemp_reg
+IOkT5BfQ^dE21V[c4z6g?Y2
+V=0>^i]hgZVB`0FUbZ6EHc0
+R1
+w1445172976
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 EJH`<>3h8IPWEL0HkW6;90
+!s85 0
+!s108 1446635805.940000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg.v|
+!s101 -O0
+vtemp_reg_with_en
+I6cM>n^IflB]Fg^JLz2;1m1
+V]Q<Ja`KPPVoz^3GA17^@V0
+R1
+w1445192794
+8C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg_with_en.v
+FC:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg_with_en.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 T=HJ6l<>i@f;[ET_VQ@]A2
+!s85 0
+!s108 1446635806.955000
+!s107 C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg_with_en.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1|C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg_with_en.v|
+!s101 -O0

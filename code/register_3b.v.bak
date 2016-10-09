@@ -1,0 +1,15 @@
+module register_3b (in, flag, clock);
+input wire[2:0] in;
+output reg flag;
+input wire clock;
+
+always @(posedge clock)
+begin
+if (in==3'b111)
+  begin
+   flag<=0;
+end
+else flag<=1;
+end
+
+endmodule

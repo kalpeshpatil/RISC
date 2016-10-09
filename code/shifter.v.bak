@@ -1,0 +1,16 @@
+module shifter(shEn,sclk,in,sF);
+input wire [8:0] in;
+input wire sclk;
+input wire shEn;
+output reg sF;
+integer i = 0;
+
+always @(posedge sclk) 
+begin
+if(shEn && i < 8)
+		begin
+			sF = in[i];
+			i = i+1;
+		end
+end
+endmodule

@@ -1,0 +1,7 @@
+module mux2to1 (ip1, ip2, ctrl_sig, op);
+input wire [15:0] ip1, ip2;
+input wire ctrl_sig;
+output wire [15:0] op;
+
+ assign op = (ctrl_sig) ? ip1: ip2;
+endmodule

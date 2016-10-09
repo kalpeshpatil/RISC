@@ -1,0 +1,68 @@
+Tue Oct 13 3:33:47 PM India Standard Time 2015
+Trace back: Recursive kernel call. Cannot execute SimObjView absname {SsH0wy VVEZwy Tk.Vxy -1 0 0 0 0}.
+    while executing
+"SimObjView absname $id"
+    (object "::AbstractDataset::simDataset0" method "::SimDataset::absname" body line 6)
+    invoked from within
+"$this absname $id"
+    (object "::AbstractDataset::simDataset0" method "::AbstractDataset::fullname" body line 2)
+    invoked from within
+"$nameSpace fullname $id"
+    (procedure "ObjectsTreeView::fullname" line 6)
+    invoked from within
+"ObjectsTreeView::fullname $id"
+    (procedure "FormatGet" line 14)
+    invoked from within
+"FormatGet .main_pane.objects SsH0wy VVEZwy TNGZwy -1 0 0 1 0"
+    (in namespace inscope "::QObjects" script line 1)
+    invoked from within
+"namespace inscope ::QObjects {FormatGet .main_pane.objects} SsH0wy VVEZwy TNGZwy -1 0 0 1 0"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-fmtgetcommand) $raw"
+    (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::get" body line 10)
+    invoked from within
+"$tree get $i"
+    (procedure "SelectItem" line 11)
+    invoked from within
+"SelectItem .main_pane.objects {SsH0wy VVEZwy TNGZwy -1 0 0 1 0}"
+    (in namespace inscope "::QObjects" script line 1)
+    invoked from within
+"namespace inscope ::QObjects {SelectItem .main_pane.objects {SsH0wy VVEZwy TNGZwy -1 0 0 1 0}}"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel "#0" $cmd"
+    (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::_evalCmd" body line 40)
+    invoked from within
+"_evalCmd $itk_option(-selectcommand) $node"
+    (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::_select" body line 6)
+    invoked from within
+"_select $idx"
+    ("set" arm line 8)
+    invoked from within
+"switch -- $op {
+        clear {
+            $itk_component(tree) selection clear all
+            if {[info exists _selected]} {unset _selected}
+	    #..."
+    (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::selection" body line 2)
+    invoked from within
+"vsimwidgets::Hierarchy::selection set $idx"
+    ("none" arm line 7)
+    invoked from within
+"switch -exact $ident {
+		"" {
+		    # Ignore this which means the mouse is over
+		    # nothing identifiable
+		}
+		expand {
+		    # Already handled (s..."
+    (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::_buttonRelease1" body line 9)
+    invoked from within
+"::.main_pane.objects.interior.cs.body.tree _buttonRelease1 .main_pane.objects.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.col1 17 131"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.objects.interior.cs.body.tree _buttonRelease1 .main_pane.objects.interior.cs.body.tree.lwchil..."
+    (command bound to event)
+  <2: ::tkerror {Recursive kernel call. Cannot execute SimObjView absname {SsH0wy VVEZwy Tk.Vxy -1 0 0 0 0}.}
+  <1: ::bgerror {Recursive kernel call. Cannot execute SimObjView absname {SsH0wy VVEZwy Tk.Vxy -1 0 0 0 0}.}

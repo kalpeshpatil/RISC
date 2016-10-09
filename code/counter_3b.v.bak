@@ -1,0 +1,18 @@
+module counter_3b (c8, counter_clock, counter_op, counter_en);
+input wire counter_clock;
+input wire counter_en;
+output reg [2:0] counter_op;
+output reg c8;
+
+if(counter_en)
+begin
+ counter_op = 0;
+ c8 = 0;
+ always @(posedge counter_clock)
+ begin
+	counter_op = counter_op + 1;
+	if (counter_op == 0) c8 = 1;
+ end
+end
+
+endmodule

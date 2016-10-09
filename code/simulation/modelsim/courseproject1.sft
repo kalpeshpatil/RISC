@@ -1,0 +1,4 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow -6 1.2V 85 Model"} {courseproject1.vho courseproject1_vhd.sdo}}
+}

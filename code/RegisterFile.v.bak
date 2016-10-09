@@ -1,0 +1,35 @@
+module RegisterFile(
+In_RF_Read_addr1, In_RF_Read_addr2,
+Out_RF_Read_data1, Out_RF_Read_data2,
+In_RF_Write_addr1,
+In_RF_Write_data1, In_RF_Write_en_1,
+In_clock,
+In_reset
+);
+input [2:0] In_RF_Read_addr1,In_RF_Read_addr2,In_RF_Write_addr1;
+input In_clock,In_reset, In_RF_Write_en_1;
+input [15:0] In_RF_Write_data1;
+output [15:0] Out_RF_Read_data1, Out_RF_Read_data2;
+
+
+
+//module regFiles(A1, A2, AIn, Rf1, Rf2, RfIn, regWrite);
+// input wire [2:0] A1, A2, AIn;
+// output reg [15:0] Rf1, Rf2;
+// input wire [15:0] RfIn;					
+// input wire regWrite;					//1 -> write & 0 -> read
+// reg [15:0] register [0:7];
+// 
+//always@(*)
+//begin
+// if(regWrite == 1)
+//	begin
+//		register[AIn] = RfIn;
+//	end
+// else
+//   begin
+//		Rf1 = register[A1];
+//		Rf2 = register[A2];
+//	end
+//end
+// endmodule

@@ -1,0 +1,50 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\lectures\sem5\ee337\Project1\simulation\modelsim
+Econtroller
+Z1 w1445941965
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 1@=8<OCiRRn]aQfZCDmb93
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 Ql`iH5NAeO9e:jiOmd8c23
+Z4 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z5 DPx6 altera 11 dffeas_pack 0 22 WazYF7bVA6oXaUBlLSKM00
+Z6 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z7 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z8 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 _Eb:k3QAE8_?<eOjl0nE?2
+Z10 dD:\lectures\sem5\ee337\Project1\simulation\modelsim
+Z11 8courseproject1.vho
+Z12 Fcourseproject1.vho
+l0
+L36
+V_j`YFo:WklG3BWVQbeN;:2
+!s100 0gJHb4?W8do[a0:JgLQIe3
+Z13 OV;C;10.0c;49
+31
+Z14 !s108 1445941991.486000
+Z15 !s90 -reportprogress|300|-93|-work|work|courseproject1.vho|
+Z16 !s107 courseproject1.vho|
+Z17 o-93 -work work -O0
+Z18 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 10 controller 0 22 _j`YFo:WklG3BWVQbeN;:2
+l1871
+L53
+V@lCRAR=[NF[baGQzM7fWg1
+!s100 McB;JoL:hSPK:e]3[ZVnO3
+R13
+31
+R14
+R15
+R16
+R17
+R18

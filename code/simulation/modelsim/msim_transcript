@@ -1,0 +1,168 @@
+# Reading D:/Programmes/Programmes/altera/11.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do courseproject1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying D:\Programmes\Programmes\altera\11.1\modelsim_ase\win32aloem/modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/memory.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module Memory
+# 
+# Top level modules:
+# 	Memory
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/ALU.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux2to1.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mux2to1_16b
+# 
+# Top level modules:
+# 	mux2to1_16b
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_3b.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mux4to1_3b
+# 
+# Top level modules:
+# 	mux4to1_3b
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/counter_3b.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module counter_3b
+# 
+# Top level modules:
+# 	counter_3b
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/RegisterFile.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module RegisterFile
+# 
+# Top level modules:
+# 	RegisterFile
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_3b.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mux8to1_3b
+# 
+# Top level modules:
+# 	mux8to1_3b
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux8to1_16b.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mux8to1_16b
+# 
+# Top level modules:
+# 	mux8to1_16b
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se6_16.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module se6_16
+# 
+# Top level modules:
+# 	se6_16
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se79_16.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module se79_16
+# 
+# Top level modules:
+# 	se79_16
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/se97_16.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module se97_16
+# 
+# Top level modules:
+# 	se97_16
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/shifter.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/controller.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module temp_reg
+# 
+# Top level modules:
+# 	temp_reg
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/instruction_reg.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module instruction_reg
+# 
+# Top level modules:
+# 	instruction_reg
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/temp_reg_with_en.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module temp_reg_with_en
+# 
+# Top level modules:
+# 	temp_reg_with_en
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/register_3b.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module register_3b
+# 
+# Top level modules:
+# 	register_3b
+# vlog -vlog01compat -work work +incdir+C:/Users/Kalpesh\ Patil/OneDrive/Acads/Ankit-kalpesh/Project1 {C:/Users/Kalpesh Patil/OneDrive/Acads/Ankit-kalpesh/Project1/mux4to1_16b.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module mux4to1_16b
+# 
+# Top level modules:
+# 	mux4to1_16b
+# 
+#  
+vsim work.controller
+# vsim work.controller 
+# Loading work.controller
+# Loading work.Memory
+# Loading work.instruction_reg
+# Loading work.mux2to1_16b
+# Loading work.temp_reg
+# Loading work.mux4to1_3b
+# Loading work.mux8to1_3b
+# Loading work.mux4to1_16b
+# Loading work.RegisterFile
+# Loading work.counter_3b
+# Loading work.shifter
+# Loading work.se6_16
+# Loading work.se97_16
+# Loading work.se79_16
+# Loading work.mux8to1_16b
+# Loading work.ALU
+# Loading work.temp_reg_with_en
+# Loading work.register_3b
+add wave -position end  sim:/controller/carry_flag
+add wave -position end  sim:/controller/curr_state
+add wave -position end  sim:/controller/mem_21
+add wave -position end  sim:/controller/mem_22
+add wave -position end  sim:/controller/mem_23
+add wave -position end  sim:/controller/mem_24
+add wave -position end  sim:/controller/mem_25
+add wave -position end  sim:/controller/mem_26
+add wave -position end  sim:/controller/reg_0
+add wave -position end  sim:/controller/reg_1
+add wave -position end  sim:/controller/reg_2
+add wave -position end  sim:/controller/reg_3
+add wave -position end  sim:/controller/reg_4
+add wave -position end  sim:/controller/reg_5
+add wave -position end  sim:/controller/reg_6
+add wave -position end  sim:/controller/reg_7
+add wave -position end  sim:/controller/zero_flag
+run
+add wave -position 1  sim:/controller/clock
+force -freeze sim:/controller/clock 1 0, 0 {50 ps} -r 100
+run
+run
+run
+add wave -position end  sim:/controller/edb_out
+run
+run
+run
+run
+run
